@@ -1,0 +1,26 @@
+{
+  "name": "bitrix-integration-api",
+  "version": "1.0.0",
+  "description": "Integração Bitrix24 via API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sofia Trindade",
+  "license": "ISC",
+  "dependencies": {
+    "@bitrix24/b24jssdk": "^0.4.3",
+    "consign": "^0.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/soofiatrindade/bitrix-integration-api.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://gitlab.com/soofiatrindade/bitrix-integration-api/issues"
+  },
+  "homepage": "https://gitlab.com/soofiatrindade/bitrix-integration-api#readme"
+}
