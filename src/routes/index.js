@@ -8,6 +8,7 @@ router.get('/', (req, res) => {
 })
 
 router.get('/card/:id', controllers.getDealById)
+router.get('/card/:id/export', controllers.exportDealFiles);
 router.get('/set-user/:id/:hook', controllers.setUser)
 
 export default router

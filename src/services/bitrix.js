@@ -8,7 +8,7 @@ const bitrix = axios.create({
 
 export async function getDealById(id) {
   try {
-    console.log('=> Buscando na API Bitrix: ' + 'crm.deal.get', { params: { id } })
+    // console.log('=> Buscando na API Bitrix: ' + 'crm.deal.get', { params: { id } })
     const res = await bitrix.get('crm.deal.get', { params: { id } });
     return res.data.result;
   } catch (error) {
