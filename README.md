@@ -2,14 +2,14 @@
 
 ## Getting started
 
-npm run install
+npm run install &&
 npm run dev
 
 ## Routes
 
-- [ ] [Set User Info](/set-user/:userId/:hook)
-- [ ] [Get Card](/card/:id)
-- [ ] [Export word e pdf do card](/card/:id/export)
+- Set User Info /set-user/:userId/:hook
+- Get Card /card/:id
+- Export word e pdf do card /card/:id/export
 
 ```
 cd existing_repo
