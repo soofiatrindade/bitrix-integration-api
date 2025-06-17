@@ -1,0 +1,7 @@
+{
+  "javascript.suggest.paths": true,
+  "typescript.suggest.paths": true,
+  "path-intellisense.autoSlashAfterDirectory": true,
+  "path-intellisense.extensionOnImport": true,
+  "autoimport.filesToScan": 1000
+}
